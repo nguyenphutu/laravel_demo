@@ -39,8 +39,8 @@
                         {{ Form::hidden('_method', 'DELETE') }}
                         {{ Form::submit('Delete this Teacher', array('class' => 'btn btn-warning')) }}
                     {{ Form::close() }}
-                    <a class="btn btn-small btn-success" href="{{ URL::to('teacher/' . $value->id) }}">Show this Nerd</a>
-                    <a class="btn btn-small btn-info" href="{{ URL::to('teacher/' . $value->id . '/edit') }}">Edit this Nerd</a>
+                    <a class="btn btn-small btn-success" href="{{ URL::to('teacher/' . $value->id) }}">Show this Teacher</a>
+                    <a class="btn btn-small btn-info" href="{{ URL::to('teacher/' . $value->id . '/edit') }}">Edit this Teacher</a>
                 </td>
             </tr>
         @endforeach
