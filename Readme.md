@@ -3,8 +3,8 @@
 - Using Auth middleware
 - Using sqlite database
 - Using migrate to create table and seed data.
+- Using Eloquent ORM.
 - Using Blade template.
-
 
 Set up
 
