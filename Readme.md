@@ -1,5 +1,18 @@
-- run composer 
-- run migrate
-- run seed data
+- Create sample CRUD laravel project
+- List - Create - Detail - Update - Destroy Teacher and Student
+- Using Auth middleware
+- Using sqlite database
+- Using migrate to create table and seed data.
+- Using Blade template.
 
-* site in localhost:8000
+
+Set up
+
+- Clone code frome github
+- Run composer to download lib: composer install
+    
+- Run migrate to create database: 
+- Run seed to create sample data: php artisan migrate:refresh --seed
+- Run server : php artisan serve.
+
+
